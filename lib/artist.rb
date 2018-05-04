@@ -1,4 +1,9 @@
 require 'pry'
-class Artist 
+class Artist
+  attr_accessor :name, :songs
 
-end 
+  def initialize(name)
+  @name = name 
+  @songs = []  
+  end 
+end
