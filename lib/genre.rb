@@ -2,13 +2,13 @@ class Genre
   attr_accessor :name, :songs, :artist
 
   def initialize(name)
-    @name = name 
+    @name = name
     @songs = []
   end
 
-  def artist 
+  def artist
     @songs.collect do |song|
       song.artist 
-  end 
+  end
 
 end
