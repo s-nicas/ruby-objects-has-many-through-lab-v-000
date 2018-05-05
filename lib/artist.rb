@@ -1,6 +1,6 @@
 require 'pry'
 class Artist
-  attr_accessor :name, :songs, :genre 
+  attr_accessor :name, :songs, :genre
 
   def initialize(name)
   @name = name
@@ -12,8 +12,9 @@ class Artist
     song.artist = self
   end
 
-  def genres 
+  def genres
     @songs.each do |song|
       song.genre 
+    end
   end 
 end
