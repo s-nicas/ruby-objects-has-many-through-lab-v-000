@@ -13,7 +13,7 @@ class Artist
   end
 
   def genres
-    @songs.each do |song|
+    @songs.collect do |song|
       song.genre
     end
   end
