@@ -13,8 +13,8 @@ class Doctor
 
   def patients
     @appointments.collect do |vists|
-    visits.patient
+    visits.patients
   end
-end 
+end
 
 end
