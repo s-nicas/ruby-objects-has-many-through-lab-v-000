@@ -1,3 +1,6 @@
-class Genre 
+class Genre
 
+  def initialize
+
+  end 
 end 
